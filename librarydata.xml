@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--Gareth Duffy - g00364693 - HDip (Data Analytics) - Data Representation - Exercise 1.1-->
+<!--For best results open this file with Excel, click the "As an XML table" option-->
+
+<Library>	
+	<Catalogs>
+		<Book>
+		   <Catalog_type>Technical</Catalog_type>	
+		   <ISBN>978-1491962299</ISBN>
+		   <Title>Hands_On_Machine_Learning</Title>
+		   <Author>Aurelien_Geron</Author>
+		   <Publisher>O′Reilly</Publisher>
+		</Book>
+		<Book>
+		   <Catalog_type>Technical</Catalog_type>	
+		   <ISBN>978-0596007645</ISBN>
+		   <Title>XML_in_a_Nutshell </Title>
+		   <Author>Elliotte_Rusty_Harold</Author>
+		   <Publisher>O′Reilly</Publisher>
+		</Book>
+		<Book>
+		   <Catalog_type>Cookery</Catalog_type>	
+		   <ISBN>978-1472962805 </ISBN>
+		   <Title>Tom_Kerridge's_Fresh_Start</Title>
+		   <Author>Tom_Kerridge</Author>
+		   <Publisher>Bloomsbury_Publishing</Publisher>
+		</Book>
+		<Book>
+		   <Catalog_type>Cookery</Catalog_type>	
+		   <ISBN>978-1784725358</ISBN>
+		   <Title>Chetna's_Healthy_Indian</Title>
+		   <Author>Chetna_Makan</Author>
+		   <Publisher>Octopus_Publishing</Publisher>
+		</Book>
+	</Catalogs>
+</Library>
