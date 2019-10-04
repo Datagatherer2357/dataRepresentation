@@ -1,2 +1,2 @@
 # dataRepresentation
-Associated excercises with Data Representation
+Associated lab excercises with Data Representation
