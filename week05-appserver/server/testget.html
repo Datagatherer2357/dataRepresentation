@@ -1,0 +1,34 @@
+<!--For testing our "get" json
+ Gareth Duffy g00364693
+ Lab05.2: Flask: intro to web server-->
+
+<!DOCTYPE html>
+<html>
+    <head><title>test get</title></head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <body>
+        hi there
+        <button onclick="getall()">go</button>
+
+        <script>
+            function getall(){
+                $.ajax({
+                    url: "cars",
+                    method: "GET",
+                    data:"",
+                    dataType:"JSON",
+                    success: function(result){
+                        //console.log(result);
+                        // To bet the extracted data into a table:
+                        for (car of result.cars){
+                            console.log(car);
+                        }
+                    },
+                    error: function(xhr,status, error){
+                        console.log("error "+status+" msg:"+error);
+                    }
+                })
+            }
+        </script>
+    </body>
+    </html>
